@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="youtube.css">
+</head>
+<body>
+   
+    <div class="container">
+        <div>
+            <a href="http://127.0.0.1:5503/youtube.html">
+            <img src="img.jpg" alt="logo" class="logo">
+        </a>
+        </div>
+        <section class="search-field">
+            <div class="search-box">
+                <input type="text" placeholder="원하는 비디오를 검색해보세요" id="search">
+                <button id="searchBtn">검색</button>
+            </div>
+        </section>
+        <div class="buttons">
+            <button data-category="음악" class="category">음악</button>
+            <button data-category="게임" class="category">게임</button>
+            <button data-category="영화" class="category">영화</button>
+            <button data-category="실시간" class="category">실시간</button>
+            <button data-category="뉴스" class="category">뉴스</button>
+            <button data-category="수학" class="category">수학</button>
+            <button data-category="요리" class="category">요리</button>
+        </div>
+        <section class="video-list">
+            <div class="video-item">
+                <div class="thum-img">
+                    <img src="" alt="">
+                </div>
+                <div class="video-txt">
+                    <h2>타이틀</h2>
+                    <p>설명</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="youtube.js"></script>
+</body>
+</html>

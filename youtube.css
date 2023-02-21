@@ -1,0 +1,32 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+ul,li{list-style:none;}
+a{text-decoration: none;color:inherit}
+.container{width:1200px; margin:auto;}
+.video-list{width:100%; display:flex; flex-wrap:wrap;}
+.video-item{width:calc(20% - 16px);margin:8px;}
+.video-item .thum-img img{width:100%;border-radius: 10px 10px 10px 10px;}
+.video-item .video-txt{word-wrap:break-word;}
+.video-txt h2{font-size: 14px;margin-bottom: 8px;color:rgb(9, 112, 112)}
+.video-txt h3{font-size: 12px;font-weight:normal;margin-bottom:8px;color:rgb(74, 59, 59)}
+
+.search-field{display:flex;justify-content: center;background-color: white;}
+.search-box{display: flex;}
+#search{width:600px;height:30px;padding:0 8px;border-radius: 40px 0 0 40px; margin: 16px 0;}
+#searchBtn{width:100px;background-color: #000;color:#fff;height:30px;border-radius: 0 40px 40px 0; margin:16px 0 16px;}
+
+.category{background-color: rgb(227, 226, 226); border-radius: 8px;
+    border: 1px solid var(--yt-spec-10-percent-layer);
+padding: 6px 12px;cursor: pointer;}
+.category:hover{background-color: rgb(188, 186, 186);
+}
+/* 카테고리 버튼 클릭시 색상 변경 */
+.category.on{color: #fff; background-color: #000;}
+
+.logo{width: 200px; display: block; margin: 0px auto;}
+
+/* 검색바 스크롤시 상단 고정 */
+.search-field.fixed{position: fixed; left: 0; top: 0; width: 100%;}
+
+
+
+
